@@ -135,6 +135,7 @@ void readSerial(){
       connected = true;
       available = true;
     }
+    
     else if(inputString == "M0\n" && connected){
       //inputDegrees = 0;
       //digitalWrite(stepPin,LOW);
